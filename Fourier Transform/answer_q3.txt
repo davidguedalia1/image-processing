@@ -1,0 +1,6 @@
+Question 3:
+The difference between the magnitudes is the result of - calculating using convolution
+we saw match explicit lines representing from using fourier transform.
+Because convolution is linear and continuous and fourier transform is discrete.
+When we use fourier transform we lost some information and get less explicit lines in the magnitude.
+The both are close to the real derivative, from the results I think the convolution method is more accurate.

@@ -1,0 +1,7 @@
+Question 1:
+We multiplying every level by a coefficient to control image result, as we can see
+every level as a ring pass filter, because it has certain range of frequencies.
+As the higher the pyramid layer so it has lower the frequency range.
+To multiply the lower levels by higher values on the top's pyramid so the outlines will be much clearer.
+But if we multiplying with smaller coefficients we get blurrier picture.
+

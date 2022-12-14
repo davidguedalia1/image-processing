@@ -1,0 +1,13 @@
+Question 2:
+The blending with small values of filter image we will not get such a good blend.
+i.e the blend looks like two pictures together.
+Because building the laplacian pyramid causes resizeing the picture and when the blur
+is not well we losing information so after building the laplacian pyramid and
+blending two images together we get no smooth transition because of the lose of information.
+
+But Blending with big image filters make the image to be smeared and not accurate.
+distorted and smeared meaning the edges between both images looks smeared  and not exact.
+This happends because when we have a big image filter, blurring a pixel with lots pixels
+that are far from the pixel, so blending the two images together with a large filter
+we loosing the masking process of it because we blur the image with
+pixels that not suit.

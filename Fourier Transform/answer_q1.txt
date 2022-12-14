@@ -1,0 +1,5 @@
+Question 1:
+The difference between them is:
+in change_rate i saw there is higher frequencies, because multiplying the rate, so the frequencies of the
+waves get bigger so the duration is speed, On the other hand, in change samples we are converting be fourier signal
+and remove the high frequencies. so we got a speed up without high frequencies.

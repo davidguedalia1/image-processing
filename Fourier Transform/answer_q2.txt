@@ -1,0 +1,8 @@
+Question 2:
+The difference between the functions:
+The two of the files we got a speed up of the original,
+At the resize_spectogram function we get a faster but dirty sound and it is because
+there is "waves" on top. When we compare for a shorter time and we don't correct the phases of the waves so they cancel
+the other.
+When we used phase_vocoder we get a clean sound because of the correction of the phases
+where waves will not cancel the other.

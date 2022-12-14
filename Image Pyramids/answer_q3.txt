@@ -1,0 +1,9 @@
+Question 3:
+blending two images when their pyramid levels are low looks like two images reflect together.
+it happends because when the pyramid levels are low we get two pictures that have high outlines
+so trying blend the two pictures together we get trouble between the two pictures.
+
+When we blend two images when their pyramid levels are high it looks like smeared in the edges between the two images.
+Because when we make the pyramid longer we get pictures that are very blurred so we lost the image.
+After we build the blended image we use levels that are blurred so we got
+the final image to be blurred.
